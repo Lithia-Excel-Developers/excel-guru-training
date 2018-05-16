@@ -74,11 +74,10 @@ Many departments rely on Excel macros to function efficiently
 
 ### Code Style Guide
 
-* spaces or tabs
 * spaces per tab (4)
 * Naming Conventions
 * Descriptive Names > code words
-* When to Comment. When *not* to
+* When to comment. When *not* to comment
 * Comment Tags
   * {DEV}, {TODO}, {BUG}, {TECHDEBT}
 * linters
@@ -87,19 +86,18 @@ Many departments rely on Excel macros to function efficiently
 
 ### VBA Software Architecture & Best Practices
 
-* Abstraction
-* Fully Qualified Referencing
-* private/public methods
-* Iteration
-  * for
-  * for each
-  * do
-* Data storage an recall
-  * range / table
-  * array
-  * collection
-  * dictionary
-  * recordset
+* VBA Files
+  * UserForm (.frx,.frm)
+  * Module (.bas)
+  * Class (.cls)
+* [Data Types](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/data-types/data-type-summary)
+  * Variant
+  * Boolean
+  * Long
+  * Double
+  * Date
+  * String
+  * Object
 * Code Structures
   * Methods (verb)
     * Sub
@@ -111,10 +109,27 @@ Many departments rely on Excel macros to function efficiently
     * Type
     * Class
   * Enumerators
+  * Events
+* private/public methods
+* Iteration
+  * for
+  * for each
+  * do
+* Data storage an recall
+  * range / table
+  * array
+  * collection
+  * dictionary
+  * recordset
+* Fully Qualified Referencing
+* Abstraction
 * GoTo
   * line identification
   * GoTo 0
   * Resume Next
+* Error Handling
+* VBA package management
+  * code accessable repositories (CDN)
 
 ------------
 
